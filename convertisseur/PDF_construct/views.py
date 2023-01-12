@@ -17,4 +17,4 @@ def pdf (request):
     return HttpResponse("Error generating PDF", status=400)
 
 def pdf_html (request):
-    return render(request, 'PDF_construct/pdf.html')
+    return render(request, 'PDF_construct/facture.html')

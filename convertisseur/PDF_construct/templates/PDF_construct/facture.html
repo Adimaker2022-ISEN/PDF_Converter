@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'PDF_construct/facture.css' %}" />
+    <title>Facture</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Coucou</h1>
+        </div>
+        <div class="information">
+            <h4>Szewczyk Clément</h4>
+            <h6>42 rue de la dique</h6>
+            <h6>59232 - Vieux-Berquin</h6>
+        </div>
+        <div class="initial">
+            <h6>CS</h6>
+        </div>
+    </header>
+    <div class="haut_table">
+        <p> <strong>Date :</strong> 11/01/2022</p>
+        <p><strong>Adhérents n° </strong>22 - 0536</p>
+        <p><strong>Facture :</strong> 22-597</p>
+    </div>
+    <div class="table">
+        <div class="first_line">
+            <div class="designation">
+                <p><strong>Désignation</strong></p>
+            </div>
+            <div class="quantite">
+                <p><strong>QTE</strong></p>
+            </div>
+            <div class="PU">
+                <p><strong>P.U.</strong></p>
+            </div>
+            <div class="total">
+                <p><strong>Total</strong></p>
+            </div>
+        </div>
+        <div class="second_line">
+            <div class="element">
+                <p>Peinture de Clément</p>
+            </div>
+            <div class="QTE">
+                <p>3</p>
+            </div>
+            <div class="PU2">
+                <p>111</p>
+            </div>
+            <div class="total2">
+                <p>333</p>
+            </div>
+        </div>
+    </div>
+    <div class="bas_table">
+        <p><strong>Mode de réglements :</strong> 242.00 € en CB</p>
+    </div>
+    <footer>
+
+    </footer>
+</body>
+</html>

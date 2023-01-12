@@ -1,0 +1,98 @@
+header{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.information {
+    margin: 30px;
+}
+
+.information h4{
+    margin-top: 21px;
+    margin-left: 0;
+    margin-bottom: 20px;
+    margin-right: 0;
+}
+
+.information h6{
+    margin:0;
+}
+
+.initial h6{
+    margin: 0;
+}
+
+.haut_table {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+
+
+.table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.first_line{
+    display: flex;
+    flex-direction: row;
+}
+
+.designation{
+    border: 1px solid black;
+    width: 300px;
+    text-align: center;
+}
+
+.quantite{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    width: 70px;
+    text-align: center;
+}
+
+.PU{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    text-align: center;
+    width: 60px;
+}
+
+.total{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    text-align: center;
+    width: 60px;
+}
+
+.second_line{
+    display: flex;
+    flex-direction: row;
+}
+
+.element{
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    width: 300px;
+    padding-left: 10px;
+}
+
+.QTE{
+    
+}
+
+
+.bas_table{
+    display: flex;
+    justify-content: flex-start;
+}
