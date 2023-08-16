@@ -25,9 +25,10 @@ header{
 
 .haut_table {
     display: flex;
-    justify-content: center;
+    justify-content: center;    
     justify-content: space-around;
 }
+
 
 
 
@@ -36,7 +37,9 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+    width: 100%; 
+    margin-left: 30px;
+    margin-right: 30px  ;
 }
 
 .first_line{
@@ -46,7 +49,7 @@ header{
 
 .designation{
     border: 1px solid black;
-    width: 300px;
+    width: 900px;
     text-align: center;
 }
 
@@ -63,7 +66,7 @@ header{
     border-top: 1px solid black;
     border-right: 1px solid black;
     text-align: center;
-    width: 60px;
+    width: 80px;
 }
 
 .total{
@@ -71,7 +74,7 @@ header{
     border-top: 1px solid black;
     border-right: 1px solid black;
     text-align: center;
-    width: 60px;
+    width: 80px;
 }
 
 .second_line{
@@ -83,12 +86,46 @@ header{
     border-bottom: 1px solid black;
     border-left: 1px solid black;
     border-right: 1px solid black;
-    width: 300px;
-    padding-left: 10px;
+    width: 900px;
+    text-align : center;
 }
 
 .QTE{
-    
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    width: 70px;
+    text-align : center;
+}
+
+.PU2{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    width: 80px;
+    text-align : center;
+}
+
+.total2{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    width: 80px;
+    text-align : center;
+}
+
+.last_line{
+    display: flex;
+    justify-content: space-between;
+    width: 1132.5px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.last_line p:nth-child(1) {
+    margin-left: 10px;
+}
+
+.last_line p:nth-child(2) {
+    margin-right: 10px;
 }
 
 
@@ -96,3 +133,4 @@ header{
     display: flex;
     justify-content: flex-start;
 }
+

@@ -7,7 +7,7 @@ from django.http import HttpResponse
 # Create your views here.
 def pdf (request):
      # Render the HTML template
-    html = render_to_string('PDF_construct/pdf2.html')
+    html = render_to_string('PDF_construct/facture.html')
 
     # Create a PDF file
     result = BytesIO()
